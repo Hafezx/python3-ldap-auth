@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "JSONPERLINE": {
+      "format": "%(message)s"
+    },
+    "simple": {
+      "format": "[%(asctime)s] %(levelname)s %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    },
+    "verbose": {
+      "format": "[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    },
+    "transaction": {
+      "format": "%(message)s"
+    }
+  },
+  "handlers": {
+    "logstash": {
+      "level": "DEBUG",
+      "class": "logstash.LogstashHandler",
+      "host": "127.0.0.1",
+      "port": 9900,
+      "tags": [
+        "admin-panel-login"
+      ]
+    }
+  },
+  "loggers": {
+    "ms_logger": {
+      "handlers": [
+        "logstash"
+      ],
+      "level": "DEBUG"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "en": {
+    "0000": "Operation successful!",
+    "0101": "Permission Denied!",
+    "0400": "Operation failed!",
+    "0202": "OTP Validation Not Valid",
+    "0204": "No result found!",
+    "1001": "Input Validation Error, please check your parameters with document",
+    "1002": "Unknown Error",
+    "1003": "Connection Error",
+    "1005": "Form Not Found Error",
+    "1006": "Please Provide all required fields",
+    "1007": "Login Request Limit Error",
+    "40101": "Authentication Error",
+    "40102": "Authentication Error, You cannot retry for a while . your ip is limited.",
+    "40103": "Authentication Error, Your token has been expired. please Login again.",
+    "7001": "Something went wrong, please try again",
+    "6001": "Error in registering in news letter",
+    "5001": "Something went wrong, please try again"
+  }
+}

@@ -1,0 +1,14 @@
+click==7.1.2
+Flask==0.12.5
+Flask-APIBlueprint==1.0.0
+itsdangerous==1.1.0
+Jinja2==2.11.3
+ldap3==2.9
+MarkupSafe==1.1.1
+pyasn1==0.4.8
+PyJWT==2.1.0
+python-dotenv==0.17.1
+python-logstash==0.4.6
+six==1.16.0
+Werkzeug==0.16.1
+redis==4.6.0
